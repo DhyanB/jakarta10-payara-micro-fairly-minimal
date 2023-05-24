@@ -10,11 +10,14 @@ repositories {
 }
 
 dependencies {
+    // Note: "providedCompile" is a dependency that is needed at compile and runtime, but is declared
+    // to be provided by the application server. Therefore it is not included with the WAR file.
+
     // Jakarta EE
-    providedCompile 'jakarta.platform:jakarta.jakartaee-api:9.1.0'
+    providedCompile 'jakarta.platform:jakarta.jakartaee-api:10.0.0'
 
     // MicroProfile
-    providedCompile 'org.eclipse.microprofile:microprofile:4.1'
+    providedCompile 'org.eclipse.microprofile:microprofile:5.0'
 
     // Lombok
     providedCompile 'org.projectlombok:lombok:1.18.26'
