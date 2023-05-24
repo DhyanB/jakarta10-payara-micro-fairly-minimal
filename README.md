@@ -6,7 +6,7 @@ Fairly minimal in that the MicroProfile, Lombok, SLF4J and some boilerplate are 
 
 ### Requirements
 
-Shell + make + jdk11 + gradle + docker + docker-compose
+Shell + make + jdk17 + gradle + docker + docker-compose
 
 ### Building and running
 
