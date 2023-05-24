@@ -1,6 +1,6 @@
 ### About this project
 
-A fairly minimal Jakarta EE 9 microservice running on Payara Micro.
+A fairly minimal Jakarta EE 10 microservice running on Payara Micro 6.
 
 Fairly minimal in that the MicroProfile, Lombok, SLF4J and some boilerplate are already included.
 
