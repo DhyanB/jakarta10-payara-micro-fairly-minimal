@@ -14,7 +14,7 @@ public class HelloResource {
     public Response getPlainVersion() {
         return Response
                 .status(Response.Status.OK)
-                .entity("{\"Hello\":\"World\"}")
+                .entity("{\"message\":\"Hello World!\"}")
                 .build();
     }
 }
