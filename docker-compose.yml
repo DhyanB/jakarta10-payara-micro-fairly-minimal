@@ -1,7 +1,7 @@
 version: "3.7"
 services:
   microservice:
-    image: payara/micro:5.2022.1-jdk11
+    image: payara/micro:6.2022.2-jdk17
     container_name: microservice
     ports:
       - "8080:8080" # HTTP listener
